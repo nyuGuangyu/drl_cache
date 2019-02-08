@@ -1,0 +1,16 @@
+{
+  "CACHE_SIZE" : 100,
+  "WINDOW_SIZES" : [-100,-1000,-10000],
+  "PREFIX" : 18,
+  "actor_lr" : 0.01,
+  "critc_lr" : 0.1,
+  "reqs_dir_fake" : "../data/fakedReq/",
+  "reqs_dir_real" : "../data/req/",
+  "LOG_FILE" : "../logs/log_compare_RLfuse_LRU",
+  "collect_freq" : 64,
+  "prev_slot_num" : 16,
+  "TRAIN_SEQ_LEN" : 16,
+  "feat_num" : 2,
+  "act_num" : 11,
+  "reqs_dir_real_indexed" : "../data/req_index/"
+}

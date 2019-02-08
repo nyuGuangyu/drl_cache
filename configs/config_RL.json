@@ -1,0 +1,10 @@
+{
+  "CACHE_SIZE" : 100,
+  "WINDOW_SIZES" : [-100,-1000,-10000],
+  "PREFIX" : 18,
+  "actor_lr" : 0.01,
+  "critc_lr" : 0.1,
+  "reqs_dir_fake" : "../data/fakedReq/",
+  "reqs_dir_real" : "../data/req/",
+  "LOG_FILE" : "../logs/log_compare_RL_LRU"
+}
